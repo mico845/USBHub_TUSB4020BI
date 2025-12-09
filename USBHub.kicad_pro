@@ -252,14 +252,16 @@
       "MY_Res",
       "MY_Cap",
       "MY_Connector_PH2.54",
-      "MY_Osc"
+      "MY_Osc",
+      "MY_FB"
     ],
     "pinned_symbol_libs": [
       "MY_IC_Connector",
       "MY_Discrete",
       "MY_Res",
       "MY_Cap",
-      "MY_Osc"
+      "MY_Osc",
+      "MY_FB"
     ]
   },
   "meta": {
