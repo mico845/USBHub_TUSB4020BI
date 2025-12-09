@@ -253,7 +253,8 @@
       "MY_Cap",
       "MY_Connector_PH2.54",
       "MY_Osc",
-      "MY_FB"
+      "MY_FB",
+      "MY_Switch"
     ],
     "pinned_symbol_libs": [
       "MY_IC_Connector",
@@ -261,7 +262,11 @@
       "MY_Res",
       "MY_Cap",
       "MY_Osc",
-      "MY_FB"
+      "MY_FB",
+      "MY_Switch",
+      "MY_Res_DCRCWe3",
+      "MY_Power",
+      "MY_Res_AF"
     ]
   },
   "meta": {
