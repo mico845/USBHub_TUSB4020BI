@@ -1,0 +1,180 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ab1918d7-2bbe-487f-aa5b-051eab251b31")
+	(paper "A4")
+	(title_block
+		(title "Revision History")
+		(rev "v1.0")
+		(company "RICKY")
+	)
+	(lib_symbols)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 38.354 46.736 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.2223)
+			)
+		)
+		(uuid "3c2bed2e-414d-49da-bdc9-060341942377")
+	)
+	(text "Revision History"
+		(exclude_from_sim no)
+		(at 138.938 23.876 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8b751052-c802-4aee-ab06-ca3c82116f51")
+	)
+	(text "12/11/2025"
+		(exclude_from_sim no)
+		(at 60.198 46.99 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.2223)
+			)
+		)
+		(uuid "95b73383-c450-4301-a942-dfb8ed20560f")
+	)
+	(text "Initial Release."
+		(exclude_from_sim no)
+		(at 87.884 46.99 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.2223)
+			)
+		)
+		(uuid "fffdeb18-f7c5-448f-9de0-f0d4636edd21")
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 21.59 21.59 193.04)
+		(row_heights 12.7 130.81)
+		(cells
+			(table_cell "Rev"
+				(exclude_from_sim no)
+				(at 27.94 29.21 0)
+				(size 21.59 12.7)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+				(uuid "6db4ec4f-9c58-4cfa-b444-1198f628aefe")
+			)
+			(table_cell "Data"
+				(exclude_from_sim no)
+				(at 49.53 29.21 0)
+				(size 21.59 12.7)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+				(uuid "7226be4b-0be3-4b0a-8832-73eeab5dcfbf")
+			)
+			(table_cell "Desc"
+				(exclude_from_sim no)
+				(at 71.12 29.21 0)
+				(size 193.04 12.7)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+				(uuid "81059d9a-e193-4a05-8377-946bf92d5e25")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 27.94 41.91 0)
+				(size 21.59 130.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c4342c7d-b5dc-491a-ab8d-c9749dd10a2c")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 49.53 41.91 0)
+				(size 21.59 130.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1b022e26-d81d-479e-8701-c23e6a8652af")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 71.12 41.91 0)
+				(size 193.04 130.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a4f19740-9f9b-4c0c-9fcd-c450a0af8702")
+			)
+		)
+	)
+)
