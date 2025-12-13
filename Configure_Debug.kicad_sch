@@ -16840,7 +16840,7 @@
 				)
 			)
 		)
-		(symbol "MY_Switch:SD08H0SB"
+		(symbol "MY_SW:SD08H0SB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -24045,6 +24045,142 @@
 		)
 	)
 	(symbol
+		(lib_id "MY_SW:SD08H0SB")
+		(at 83.82 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eb5d405-ef2b-43e0-a178-8242451575b8")
+		(property "Reference" "S1"
+			(at 83.82 37.592 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100mA 25VDC"
+			(at 83.82 64.77 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "MY_Switch:CK_SW_SD08H0SB"
+			(at 83.82 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://SD08H0SBR.pdf"
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "拨码开关x8 SMD 100mA 25VDC"
+			(at 83.82 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD08H0SB"
+			(at 84.074 39.37 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 83.82 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "详细描述" "DIP 开关 SPST 8 位置 表面贴装型 滑动式（标准） 触动器 100mA 25VDC"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "49fc3b08-7a70-4866-8a3b-e0b18baa421f")
+		)
+		(pin "9"
+			(uuid "4f090a37-8b24-4ad1-9391-cc4269a5d3ad")
+		)
+		(pin "6"
+			(uuid "05f38241-7a7a-4844-b333-8d0d39b8cd0e")
+		)
+		(pin "7"
+			(uuid "5409fd81-33e9-4abe-8675-d0c40c610769")
+		)
+		(pin "5"
+			(uuid "c940328f-faa7-4cb6-ba6e-70b90c3aff13")
+		)
+		(pin "11"
+			(uuid "58fc3e36-3c59-4af4-ac3f-7f6759342503")
+		)
+		(pin "10"
+			(uuid "ec4648eb-b938-4d32-80cb-581eed156c71")
+		)
+		(pin "1"
+			(uuid "aeb2f756-a226-4d37-a878-8717c76ac9e2")
+		)
+		(pin "4"
+			(uuid "f3b198bb-3e95-423a-81aa-60678d677a85")
+		)
+		(pin "8"
+			(uuid "333ae39f-c935-4fc3-bf48-8baab805913c")
+		)
+		(pin "13"
+			(uuid "a39aad43-1deb-4194-bb32-71e5f3e43dd6")
+		)
+		(pin "14"
+			(uuid "a942d712-487e-496d-bb02-5de25dba2a75")
+		)
+		(pin "15"
+			(uuid "d856b744-3339-4e0d-ae58-077ed937661d")
+		)
+		(pin "16"
+			(uuid "46027f2a-b3e0-4e5e-8e27-45fbdb26a60a")
+		)
+		(pin "2"
+			(uuid "4e51ff6b-5d50-4a28-8b47-8a60bbdd334a")
+		)
+		(pin "12"
+			(uuid "52c81adb-dfad-445f-9c26-98da72ac2033")
+		)
+		(instances
+			(project "USBHub"
+				(path "/07e28d9d-adcb-473d-a362-1ef0c979820d/150922e4-fdd8-4f23-80c4-730d3fbf126a"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MY_Test:TP_Pad_D1.5mm")
 		(at 208.28 167.64 0)
 		(unit 1)
@@ -24686,142 +24822,6 @@
 			(project ""
 				(path "/07e28d9d-adcb-473d-a362-1ef0c979820d/150922e4-fdd8-4f23-80c4-730d3fbf126a"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MY_Switch:SD08H0SB")
-		(at 83.82 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63aa37fb-5e95-428e-b987-c2832a624efc")
-		(property "Reference" "S1"
-			(at 83.82 37.846 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "100mA 25VDC"
-			(at 83.82 64.77 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "MY_Switch:CK_SW_SD08H0SB"
-			(at 83.82 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://SD08H0SBR.pdf"
-			(at 83.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "拨码开关x8 SMD 100mA 25VDC"
-			(at 83.82 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SD08H0SB"
-			(at 83.82 39.37 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "C&K"
-			(at 83.82 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "详细描述" "DIP 开关 SPST 8 位置 表面贴装型 滑动式（标准） 触动器 100mA 25VDC"
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8c3c9746-ccac-4086-9243-3646b953d80c")
-		)
-		(pin "6"
-			(uuid "2f822b5e-3359-423c-a374-a4ed64a5f13b")
-		)
-		(pin "16"
-			(uuid "a03456f1-3371-412d-95d0-fe6f10eba784")
-		)
-		(pin "12"
-			(uuid "e53961ca-b302-4af5-b3f4-81231b40b6ce")
-		)
-		(pin "3"
-			(uuid "6b863ad4-408a-4e6d-87f6-94c0162b9158")
-		)
-		(pin "1"
-			(uuid "e4b0464d-346b-4ac7-ac5f-292e73f02a32")
-		)
-		(pin "2"
-			(uuid "b49ae3e8-cc42-420c-9a64-b1cd3f1c1556")
-		)
-		(pin "4"
-			(uuid "17182b6d-b7cb-462c-af4a-68003614ceec")
-		)
-		(pin "7"
-			(uuid "55023664-5eb7-47ca-a6d0-f99d42e0ca60")
-		)
-		(pin "8"
-			(uuid "957f29dc-86b3-4afd-8728-a853a2dfe434")
-		)
-		(pin "15"
-			(uuid "4e1d48c1-bfe8-4aeb-8626-25268c18294a")
-		)
-		(pin "14"
-			(uuid "a71abf3b-9cd2-4f3e-b16e-ca79a0d377b7")
-		)
-		(pin "13"
-			(uuid "34e9f72d-b1c8-4fe5-a267-a1d9a26b737f")
-		)
-		(pin "10"
-			(uuid "ae89e2e8-c96e-4680-bf96-4f8a12b565d8")
-		)
-		(pin "9"
-			(uuid "9d27887f-3aed-4d62-989b-7c63040cfb1e")
-		)
-		(pin "11"
-			(uuid "d236526d-14a7-45bc-b5bf-2f173580aaff")
-		)
-		(instances
-			(project ""
-				(path "/07e28d9d-adcb-473d-a362-1ef0c979820d/150922e4-fdd8-4f23-80c4-730d3fbf126a"
-					(reference "S1")
 					(unit 1)
 				)
 			)

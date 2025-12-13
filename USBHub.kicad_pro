@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -518,7 +518,9 @@
       "MY_Cap_KEMET_T495",
       "MY_LDO",
       "MY_Test",
-      "MY_Mechanical"
+      "MY_Mechanical",
+      "MY_SW_IC",
+      "MY_SW"
     ]
   },
   "meta": {
@@ -607,6 +609,14 @@
       {
         "netclass": "Power_Type",
         "pattern": "/VBUS*"
+      },
+      {
+        "netclass": "Power_Type",
+        "pattern": "/USBHub Controller/UP_VBUS"
+      },
+      {
+        "netclass": "Power_Type",
+        "pattern": "/Configure and Debug/VBUS_TMS"
       }
     ]
   },
